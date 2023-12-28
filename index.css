@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lucida Sans',
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    margin: 20px;
+}
+
+header, footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#productos, #carrito {
+    width: 45%;
+    border: 1px solid #c9aed0;
+    padding: 10px;
+}
+
+.producto, li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #c45db8;
+    color: rgb(91, 180, 197);
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #83d087;
+}
